@@ -152,3 +152,51 @@ svg {
     left: 50px;
     text-align: left;
 }
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 227px;
+}
+
+.parents {
+    width: 425.3333435058594px;
+    height: 462px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px;
+    position: relative;
+}
+
+.first-parent img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.second-parent img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.third-parent img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.testimonials img {
+    width: 58px;
+    height: 58px;
+}
