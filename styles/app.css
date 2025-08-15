@@ -198,24 +198,40 @@ svg {
     width: 80px;
     height: 80px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 50px;
+    left: 172.67px;
 }
 
 .second-parent img {
     width: 80px;
     height: 80px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 50px;
+    left: 172.67px;
 }
 
 .third-parent img {
     width: 80px;
     height: 80px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 50px;
+    left: 172.67px;
+}
+
+.star-container {
+    position: absolute;
+    top: 130px;
+    left: -30px;
+}
+
+.comment {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 325.3333435058594px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
 }
 
 .testimonials img {
