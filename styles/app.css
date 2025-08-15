@@ -262,3 +262,66 @@ div section div button {
     border-radius: 10px;
     box-shadow: 4px 4px 0px 2px;
 }
+
+footer section ul li img {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+footer section ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: white;
+    align-items: center;
+}
+
+footer section ul {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#footer-logo {
+    width: 228.36663818359375px;
+    height: 50px;
+}
+
+.last-section ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    gap: 80px;
+    width: 1820px;
+    height: 711px;
+    background-color: rgba(255, 255, 255, 1);
+    border: black solid 2px;
+    align-items: center;
+    box-shadow: 6px 6px 0px 2px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: white;
+}
+
+.topic {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-style: semibold;
+}
+
+.last-section ul li {
+    line-height: 40px;
+    font-size: 20px;
+}
