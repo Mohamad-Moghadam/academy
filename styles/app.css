@@ -104,6 +104,24 @@ img {
     .first-parent, .third-parent {
         display: none;
     }
+
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .next-previous {
+        display: flex;
+        flex-direction: row;
+        direction: ltr;
+    }
+
+    .each-two {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    }
 }
 
 .item {
@@ -203,4 +221,44 @@ svg {
 .testimonials img {
     width: 58px;
     height: 58px;
+}
+
+.each-two {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ref {
+    width: 773px;
+    height: 588px;
+    border: black solid 2px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px;
+}
+
+.line {
+    width: 613px;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+div section div p {
+    width: 613px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div section div h2 {
+    margin-top: 80px;
+}
+
+div section div button {
+    margin-top: 80px;
+    width: 613px;
+    height: 66px;
+    background-color: rgba(255, 222, 204, 1);
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 2px;
 }
